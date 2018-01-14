@@ -7,8 +7,10 @@ class User {
 //    this._name = result["name"];
       this._phoneNumber = result["phone-number"]; //uniqueID
       this._profile = {
-        "bodyPart": result["body-part"], 
-        "likesSchool": result["likes-school"], 
+        "phoneType": result["phone_type"], 
+        "flavour": result["flavour"], 
+        "name": result["name"], 
+        "media": result["media"], 
       };
     } else {
       console.log("Error: response code not 200");

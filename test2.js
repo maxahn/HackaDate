@@ -18,11 +18,11 @@ const testJson = { originalRequest:
         action: 'getPhoneNumber',
         actionIncomplete: false,
         parameters:
-         { 'phone-number': 7783218061,
+         { 'phone-number': '6042194234',
                  phone_type: 'iPhone',
-                 flavour: 'spicy',
+                 flavour: 'sweet',
                  name: 'Janet',
-                 media: 'movies' },
+                 media: 'netflix' },
         contexts: [ [Object], [Object], [Object] ],
         metadata:
          { matchedParameters: [Array],
