@@ -29,7 +29,7 @@ class UserTracker {
         if (err) {
           return console.log(err.message)
         }
-        let lastId = (rows == undefined || rows.length == 0) ? 0: rows[rows.length - 1]["groupID"];
+        let lastId = (rows == undefined || rows.length == 0) ? 0: rows[0]["groupID"];
         this.currentGroupID = lastId; 
         let count = 0; 
         if (rows != undefined && rows.length != 0) {

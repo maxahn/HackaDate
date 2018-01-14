@@ -1,0 +1,43 @@
+{
+  "actions": [
+    {
+      "description": "Default Welcome Intent",
+      "name": "MAIN",
+      "fulfillment": {
+        "conversationName": "HackaDate",
+        "url": "https://5e345aee.ngrok.io/"
+
+      },
+      "intent": {
+        "name": "actions.intent.MAIN",
+        "trigger": {
+          "queryPatterns": [
+            "talk to HackaDate" 
+          ]
+        }
+      }
+    },
+    {
+      "description": "alternative actions",
+      "name": "FIND",
+      "intent": {
+        "name": "actions.intent.FIND", 
+        "trigger": {
+          "queryPatterns": [
+            "find me a date",
+            "I'm looking for love"
+          ]
+        }
+      },
+      "fulfillment": {
+        "conversationName": "HackaDate"
+      }
+    }
+  ],
+  "conversations": {
+    "<INSERT YOUR CONVERSATION NAME HERE>": {
+      "name": "
+      "url": "<INSERT YOUR FULLFILLMENT URL HERE>"
+    }
+  }
+}

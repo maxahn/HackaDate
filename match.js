@@ -1,5 +1,3 @@
-const Question = require('./data/question.js');
-const ActiveQuestions = require('./active-questions.js');
 //block of size n
 //creates n users before comparing users answers and creating a list of best matches
 //
@@ -36,3 +34,4 @@ function matchScoreSimilar(user1, user2) { //returns a percentage of how many an
 function matchPeople(people) {
 
 }
+
