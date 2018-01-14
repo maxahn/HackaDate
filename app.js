@@ -20,10 +20,11 @@ app.post('/user', (req, res) => {
   console.log(req.body.result.parameters["body-part"]);
 
   res.status(200).json({
-    speech: "Great, you'll get a text shortly of your match!", 
-    displayText: "Great, you'll get a text shortly of your match!",
+    speech: "Sweet, I'll send you a text when I find you a hot date! Happy Hacking $name! Thanks for swinging by, you're a rock start!", 
+    displayText: "Sweet, I'll send you a text when I find you a hot date! Happy Hacking $name! Thanks for swinging by, you're a rock start!" 
   });
 });
+ // speech: "Sweet, I'll send you a text when I find you a hot date! Happy Hacking $name! Thanks for swinging by, you're a rockstar!",
 
 app.listen(3000, () => console.log('Example app listening on port 3000!'))
 //let actionMap = new Map();

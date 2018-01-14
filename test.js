@@ -10,9 +10,9 @@ const testJson = {
       "parameters": 
         {
           "name": "Daniel", 
-          "phone-number": "1231231231",
-          "body-part": "leg", 
-          "likes-school": "no"
+          "phone-number": "523113932",
+          "body-part": "arm", 
+          "likes-school": "yes"
         },
       "contexts": [
          {
